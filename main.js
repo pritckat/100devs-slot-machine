@@ -3,6 +3,7 @@ class SlotMachine {
         this.reel1 = ""
         this.reel2 = ""
         this.reel3 = ""
+        this.coins = 100
     }
 
     static get reelOptions() {
@@ -14,6 +15,10 @@ class SlotMachine {
         this.reel1 = options[Math.floor(Math.random() * 5)]
         this.reel2 = options[Math.floor(Math.random() * 5)]
         this.reel3 = options[Math.floor(Math.random() * 5)]
+    }
+
+    placeBet(amount) {
+        this.coins -= amount
     }
 }
 
