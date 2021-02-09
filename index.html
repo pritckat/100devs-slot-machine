@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="styles.css"></link>
+    <link rel="stylesheet" href="styles.css"></link>
     <title>Slot Machine</title>
 </head>
 <body>
-    
+    <h1>Slots!</h1>
+    <div class="container flex reels">
+        <div class="div slot-reel"><img id="reel1" src="#"></div>
+        <div class="div slot-reel"><img id="reel2" src="#"></div>
+        <div class="div slot-reel"><img id="reel3" src="#" alt=""></div>
+    </div>
+    <div class="container inputs">
+        <h2>Place Your Bet!</h2>
+        <h3>You have <span id="coins"></span>coins.</h3>
+        <span>Minimum Bet = 10 coins</span>
+        <button id="min">Min</button>
+        <button id="max">Max</button>
+        <input id="bet" type="text" placeholder="10">
+        <button id="play">Play</button>
+    </div>
 </body>
 <script src="main.js"></script>
 </html>

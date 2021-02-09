@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.reels {
+    width: 500px;
+    height: 300px;
+    border: solid black thick;
+    display: flex;
+}
+
+.slot-reel {
+    height: 100%;
+    width: 33.33%;
+    border: solid red thin;
+    display: flex;
+}
+
+.slot-reel img {
+    width: 100%;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+}
+
+input {
+    height: 50px;
+    width: 100px;
+}
